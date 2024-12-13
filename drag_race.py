@@ -264,8 +264,8 @@ def main():
     '''
     Run the drag strip simulation. Requires login.
     '''
-    if login('admin@admin.com','Admin123!') is True:
-        print ('\nWelcome to the drag strip!')
+    if login() is True:
+        print ('\nWelcome to the drag strip!\n')
     
     vehicles = add_vehicles_manually()
     #vehicles = [[1200, 'economy','GL60UYA',1.4, True, False, 1, 5000],[2000, 'sport','OK04BYE',3.0, False, True, 1, 7000]]
